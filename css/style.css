@@ -574,6 +574,9 @@ footer {
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
   .header-title {
     padding: 5px 0px;
     width: 35%;
